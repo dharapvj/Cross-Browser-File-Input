@@ -1,0 +1,45 @@
+div#fileinputs {
+	/* IMPORTANT STUFF */
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	/* SOME CUSTOM STYLING */
+	/* width: 400px;
+	height: 30px;
+	padding: 0px; */
+	background-color: rgb(238, 238, 238);
+	text-align: center;
+	border-radius: 3px 3px 3px 3px;
+	line-height: 18px;
+}
+
+div.fakefile{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	min-width:100%;
+}
+
+input#myfile {
+	cursor: pointer;
+	position:relative;
+	text-align:right;
+	/* left:-200px;
+	top:-100px; */
+	z-index: 2;
+	opacity: 0.0; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity = 00); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=00)"; /* IE 8 */
+	-khtml-opacity: 0.0; /* Safari 1.x */
+	-moz-opacity: 0.0; /* FF lt 1.5, Netscape */
+	
+	
+    	box-sizing: border-box; /* css3 rec */
+    	-moz-box-sizing: border-box; /* ff2 */
+    	-ms-box-sizing: border-box; /* ie8 */
+    	-webkit-box-sizing: border-box; /* safari3 */
+    	-khtml-box-sizing: border-box; /* konqueror */
+	
+	display:block; border:1px solid red; width:100%; 
+}
